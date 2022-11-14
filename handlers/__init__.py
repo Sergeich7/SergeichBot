@@ -1,3 +1,9 @@
+from aiogram import types
+
+
 from .users import dp
 
-__all__ = [dp]
+from config import admins
+
+
+__all__ = ["dp"]

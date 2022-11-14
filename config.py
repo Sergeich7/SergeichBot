@@ -1,5 +1,3 @@
-TOKEN = '5308624535:AAHl4cJ31wQKVZvXnSA9zrgp9K3HoP67bUI'
-
 admins = [
     201222055
 ]

@@ -1,9 +1,15 @@
+import os
+
+from dotenv import load_dotenv
 
 from aiogram import Bot, types, Dispatcher
+from aiogram.contrib.fsm_storage.memory import MemoryStorage
 
-import config
+dotenv_path = os.path.join(os.path.dirname(__file__), '.env')
+if os.path.exists(dotenv_path):
+    load_dotenv(dotenv_path)
 
-bot = Bot(config.TOKEN, parse_mode=types.ParseMode.HTML)
+bot = Bot(os.environ.get('TOKEN'), parse_mode=types.ParseMode.HTML)
 
-dp = Dispatcher(bot)
-
+storage = MemoryStorage()
+dp = Dispatcher(bot, storage=storage)

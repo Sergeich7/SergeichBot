@@ -1,0 +1,11 @@
+version: '2.12'
+
+services:
+    app:
+        container_name: botApp
+        env_file:
+            - .env
+        build: .
+        restart: always
+
+
