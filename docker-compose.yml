@@ -2,7 +2,7 @@ version: '2.12'
 
 services:
     app:
-        container_name: botApp
+        container_name: SergeichBot
         env_file:
             - .env
         build: .
