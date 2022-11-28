@@ -1,4 +1,4 @@
-version: '2.12'
+version: '2.2'
 
 services:
     app:
@@ -6,6 +6,6 @@ services:
         env_file:
             - .env
         build: .
-        restart: always
+        restart: unless-stopped
 
 
