@@ -8,15 +8,16 @@ from buttons.inline.do_not_click_btn import do_not_click_kb
 
 full_text = """<b>Белашов Виталий Cергеевич</b>
 
-\U00002705 <b><i>Область интересов</i></b>
-Создание парсеров, ботов для телеграмм и любых других программ.
+\U00002705 <b><i>Хобби</i></b>
+Путешествия. Последнее время ездим по стране на машине.
 
-\U00002705 <b><i>Основные навыки</i></b>
-Для разработки я использую Python, SQL, NumPy, Pandas.
+\U00002705 <b><i>Интересы в IT</i></b>
+Backend разработка. Python, SQL, Django, REST, Docker.
+<a href='https://drive.google.com/file/d/16dP-1ystdg4Z_YwEkHsNH9rCgnwD7lbv/view'>Резюме</a>
+<a href='https://github.com/Sergeich7'>GitHub</a>
 
-<a href='https://docs.google.com/document/d/1lJz-qQMQEXvIPcA_HFfSTSj9MsxpI-RrbJXlKFhkzzg/edit?usp=sharing'>Резюме</a>
-
-https://t.me/Sergeich7
+\U00002705 <b><i>Контакты</i></b>
+@Sergeich7
 pl3@yandex.ru
 """
 

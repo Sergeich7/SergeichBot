@@ -1,4 +1,4 @@
-FROM python:3.9-slim
+FROM FROM python:3.10-slim
 LABEL maintainer="Vitaly Belashov pl3@yandex.ru"
 WORKDIR /app
 RUN pip install --upgrade pip

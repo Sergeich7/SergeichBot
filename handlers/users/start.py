@@ -10,13 +10,9 @@ from handlers.users.help import full_text as h_full_text
 
 full_text = """
 
-Я бот <b>Сергеич</b>! Моя главная задача - прославлять гений создателя (/owner)! ШУТКА! \U0001f604 Хотя...
+Я бот <b>Сергеич</b>! Вы можете мне что нибудь написать, отправить фотку или просто почитать анекдоты (/anek).
 
-Бот разработан на Python с использованием библиотек Аirogram и SQLite.
-
-Вы можете мне что нибудь написать, отправить фотку или просто почитать анекдоты (/anek).
-
-Так же есть возможность ознакомиться с разработанными программами (/progs). Они отлично демонстрируют возможности и стиль программирования.
+Так же есть возможность ознакомиться с другими программами (/progs).
 
 """ + h_full_text
 
@@ -24,7 +20,7 @@ full_text = """
 async def command_start(message: types.Message):
 
     await message.answer(
-            f"Привет {message.from_user.full_name}!" + full_text, reply_markup=kb_menu,
+            f"Привет <b>{message.from_user.full_name}</b>!" + full_text, reply_markup=kb_menu,
             parse_mode=types.ParseMode.HTML, disable_web_page_preview=True)
 
 
