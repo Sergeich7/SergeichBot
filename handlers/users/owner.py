@@ -9,11 +9,12 @@ from buttons.inline.do_not_click_btn import do_not_click_kb
 full_text = """<b>Белашов Виталий Cергеевич</b>
 
 \U00002705 <b><i>Хобби</i></b>
-Путешествия. Последнее время ездим по стране на машине.
+Путешествия. Последнее время ездим по стране на автомобиле.
 
 \U00002705 <b><i>Интересы в IT</i></b>
 Backend разработка. Python, SQL, Django, REST, Docker.
-<a href='https://drive.google.com/file/d/16dP-1ystdg4Z_YwEkHsNH9rCgnwD7lbv/view'>Резюме</a>
+<a href='https://sergeich7.github.io'>Портфолио</a>
+<a href='https://sergeich7.github.io/resume.pdf'>Резюме</a>
 <a href='https://github.com/Sergeich7'>GitHub</a>
 
 \U00002705 <b><i>Контакты</i></b>
